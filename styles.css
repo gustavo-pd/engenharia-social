@@ -24,9 +24,9 @@ a {
 h2 {
     color: #132157;
     font-size: 36px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-weight: 600;
 }
 
@@ -59,8 +59,8 @@ li {
 h4 {
     color: #4c598c;
     font-size: 28px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     padding-left: 30px;
     font-weight: 600;
 }
