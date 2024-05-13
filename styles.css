@@ -35,7 +35,7 @@ p {
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
-    line-height: 36px;
+    line-height: 32px;
     justify-content: center;
     color: #4c598c;
 }
@@ -59,8 +59,7 @@ li {
 h4 {
     color: #4c598c;
     font-size: 28px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 10px;
     padding-left: 30px;
     font-weight: 600;
 }
