@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+    font-family: 'TT Lakes Neue Trial Compressed Light', sans-serif;
+}
+
+@font-face {
+    font-family: 'TT Lakes Neue Trial Compressed Light';
+    src: url('../assets/fonts/TT Lakes Neue Trial Compressed Light.ttf');
+}
+
+.titleh1 {
+    color: red;
+}

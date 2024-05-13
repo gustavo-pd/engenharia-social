@@ -1,0 +1,23 @@
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "description": "Um simples projeto HTML/JS com Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o",
+    "dev": "http-server -c-1 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "bootstrap",
+    "javascript"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "http-server": "^14.1.1"
+  }
+}
