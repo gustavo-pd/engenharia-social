@@ -11,14 +11,14 @@
 <body>
 
     <header>
-        <h1 class="titleh1">Engenharia Social e Proteção de Dados:</h1>
+        <h1>Engenharia Social e Proteção de Dados:</h1>
         <nav>
-            <ul>
-                <li><a href="#engenharia_social">O que é engenharia social?</a></li>
-                <li><a href="#tipos_de_ataque">Tipos de ataque</a></li>
-                <li><a href="#como_evitar">Como evitar essas ações?</a></li>
-                <li><a href="#validar">Como validar se um site é seguro?</a></li>
-                <li><a href="#material_apoio">Download do material de apoio</a></li>
+            <ul class="ulLinks">
+                <a href="#engenharia_social">O que é engenharia social?</a>
+                <a href="#tipos_de_ataque">Tipos de ataque</a>
+                <a href="#como_evitar">Como evitar essas ações?</a>
+                <a href="#validar">Como validar se um site é seguro?</a>
+                <a href="#material_apoio">Download do material de apoio</a>
             </ul>
         </nav>
     </header>
@@ -134,39 +134,45 @@
                 Saber se um site é seguro e confiável para compras ou outros fins é fundamental para evitar dores de cabeça durante a navegação online. Isso porque páginas maliciosas podem roubar dados pessoais sensíveis ou até mesmo instalar vírus no seu dispositivo.
                 Por isso, antes de clicar em um link, é importante colá-lo em um verificador de URLs para ter certeza de que ele é seguro.
             </p>
-            <p>
+            <p style="text-align: center">
                 Segue Abaixo a URL de um site para validaçoes:
             </p>
-            <a href="https://safeweb.norton.com/" target="_blank">https://safeweb.norton.com/</a>
+            <div style="text-align: center" class="linkSafe">
+                <a href="https://safeweb.norton.com/" target="_blank">https://safeweb.norton.com/</a>
+            </div>
 
-            <p>
+            <p style="text-align: center">
                 Copie e cole a URL do site que seja validar na caixa de busca do Site
             </p>
-            <img src="./assets/images/CopyAndPaste.png" width="60%" height="60%"/>
+            <div class="divImg">
+                <img class="img1" src="./assets/images/CopyAndPaste.png" />
+            </div>
 
-            <p>
-                O site exibirá o resultado
+            <p style="text-align: center">
+                O site exibirá o resultado:
             </p>
-            <img src="./assets/images/Results.png" width="90%" height="90%"/>
+            <div class="divImg">
+                <img class="img2" src="./assets/images/Results.png" />
+            </div>
         </section>
 
         <section id="material_apoio">
-            <h2>Download do material de apoio</h2>
+            <h2 style="text-align: center;padding-top:80px; padding-bottom: 60px">Download do material de apoio</h2>
             <div style="display: flex;justify-content: space-evenly">
-                <div style="display: flex; flex-direction: column; width: 120px">
+                <div class="divButton">
                     <button id="button_jpg">Download JPG</button>
-                    <small style="font-size: 10px; text-align: center;">*Para meu pau</small>
+                    <small>*Para compartilhar imagem</small>
                 </div>
-                <div style="display: flex; flex-direction: column; width: 120px">
+                <div class="divButton">
                     <button id="button_pdf">Download PDF</button>
-                    <small style="font-size: 10px; text-align: center;">*Para meu pau</small>
+                    <small>*Para compartilhar PDF</small>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p style="text-align: center; font-size: 12px;">&copy; 2024 - Todos os direitos reservados.</p>
+    <footer style="padding-top: 80px">
+        <p style="text-align: center; font-size: 16px">&copy; 2024 - Todos os direitos reservados.</p>
     </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
