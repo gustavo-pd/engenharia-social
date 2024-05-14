@@ -7,6 +7,7 @@
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
 
@@ -24,43 +25,76 @@
     </header>
 
     <main>
-        <section id="engenharia_social">
-            <h2>O que é engenharia social?</h2>
-            <p>
-                A engenharia social é uma estratégia utilizada para ludibriar, manipular ou explorar a confiança das pessoas.
-                Trata-se de um método não violento de ataque, projetado para induzir a vítima a realizar ações prejudiciais por vontade própria, como revelar informações sensíveis ou transferir fundos para indivíduos desconhecidos.
-                Essa técnica é uma ferramenta fundamental no arsenal de hackers e de entidades nacionais, devido à sua eficácia, especialmente na obtenção de acesso aos sistemas de informação de instituições.
-                O engenheiro social é capaz de nos iludir, levando-nos a abrir anexos contendo malwares ou a clicar em links maliciosos, o que lhes permite invadir um sistema.
-                Mesmo na ausência dos acessos internos desejados pelo hacker, após abrir essa primeira porta, ele tentará aumentar seus privilégios e explorar novas vulnerabilidades.
-            </p>
+        <section id="engenharia_social" style="display: flex; flex-direction: row">
+            <div class="icon-container">
+                <i class="fas fa-shield-alt" style="font-size: 110px; color: #192A4A; padding-left: 30px; padding-right: 30px"></i>
+            </div>
+            <div class="text-container">
+                <h2>O que é engenharia social?</h2>
+                <p>
+                    A engenharia social é uma estratégia utilizada para ludibriar, manipular ou explorar a confiança das pessoas.
+                    Trata-se de um método não violento de ataque, projetado para induzir a vítima a realizar ações prejudiciais por vontade própria, como revelar informações sensíveis ou transferir fundos para indivíduos desconhecidos.
+                    Essa técnica é uma ferramenta fundamental no arsenal de hackers e de entidades nacionais, devido à sua eficácia, especialmente na obtenção de acesso aos sistemas de informação de instituições.
+                    O engenheiro social é capaz de nos iludir, levando-nos a abrir anexos contendo malwares ou a clicar em links maliciosos, o que lhes permite invadir um sistema.
+                    Mesmo na ausência dos acessos internos desejados pelo hacker, após abrir essa primeira porta, ele tentará aumentar seus privilégios e explorar novas vulnerabilidades.
+                </p>
+            </div>
         </section>
 
         <section id="tipos_de_ataque">
-            <h2>Tipos de ataque</h2>
-            <h4>Pretexto</h4>
-            <p>
-                Este tipo de ataque se baseia em criar uma situação fictícia para chamar a atenção da vítima e induzi-la a fornecer informações sensíveis.
-                Por exemplo, uma pesquisa online pode começar de forma inocente, mas eventualmente solicitar detalhes da conta bancária.
-                Da mesma forma, alguém pode aparecer com uma prancheta, alegando conduzir uma auditoria nos sistemas internos, quando na verdade estão tentando obter informações valiosas de forma fraudulenta.
-            </p>
-            <h4>Phishing</h4>
-            <p>
-                Os ataques de phishing geralmente envolvem o envio de e-mails ou mensagens de texto que se passam por fontes confiáveis, solicitando informações pessoais.
-                Um exemplo comum é o e-mail de um banco solicitando que os clientes "confirmem" suas informações de segurança, direcionando-os para um site falso onde suas credenciais de login são capturadas.
-                O "spear phishing" tem como alvo específico uma pessoa dentro de uma empresa, com e-mails que aparentam ser de executivos de alto escalão, buscando informações confidenciais.
-            </p>
-            <h4>Vishing e smishing</h4>
-            <p>
-                Estas são variantes de phishing que envolvem comunicação por voz (vishing) e mensagens SMS (smishing).
-                No vishing, os criminosos telefonam e solicitam informações, muitas vezes se passando por colegas de trabalho ou do suporte de TI.
-                Já no smishing, tentam obter informações sensíveis por meio de mensagens de texto fraudulentas.
-            </p>
-            <h4>Spamming de contatos e hacking de e-mail</h4>
-            <p>
-                Este tipo de ataque visa invadir as contas de e-mail ou redes sociais de um indivíduo para acessar seus contatos.
-                Os contatos podem ser informados de que o indivíduo foi vítima de roubo e solicitar que transfiram dinheiro para uma conta de transferência.
-                Alternativamente, um "amigo" pode encaminhar um "vídeo imperdível" que na verdade direciona para um malware ou vírus destinado a extrair dados do dispositivo da vítima.
-            </p>
+            <h2 style="padding-left: 200px">Tipos de ataque</h2>
+            <div style="display: flex; flex-direction: row">
+                <div class="icon-container" style="padding-left: 30px">
+                    <i class="fas fa-comments-dollar" style="font-size: 70px; color: #192A4A; padding-left: 15px; padding-right: 45px"></i>
+                </div>
+                <div class="text-container">
+                    <h4>Pretexto</h4>
+                    <p>
+                        Este tipo de ataque se baseia em criar uma situação fictícia para chamar a atenção da vítima e induzi-la a fornecer informações sensíveis.
+                        Por exemplo, uma pesquisa online pode começar de forma inocente, mas eventualmente solicitar detalhes da conta bancária.
+                        Da mesma forma, alguém pode aparecer com uma prancheta, alegando conduzir uma auditoria nos sistemas internos, quando na verdade estão tentando obter informações valiosas de forma fraudulenta.
+                    </p>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: row">
+                <div class="icon-container" style="padding-left: 30px">
+                    <i class="fas fa-fish" style="font-size: 70px; color: #192A4A; padding-left: 15px; padding-right: 45px"></i>
+                </div>
+                <div class="text-container">
+                    <h4>Phishing</h4>
+                    <p>
+                        Os ataques de phishing geralmente envolvem o envio de e-mails ou mensagens de texto que se passam por fontes confiáveis, solicitando informações pessoais.
+                        Um exemplo comum é o e-mail de um banco solicitando que os clientes "confirmem" suas informações de segurança, direcionando-os para um site falso onde suas credenciais de login são capturadas.
+                        O "spear phishing" tem como alvo específico uma pessoa dentro de uma empresa, com e-mails que aparentam ser de executivos de alto escalão, buscando informações confidenciais.
+                    </p>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: row">
+                <div class="icon-container" style="padding-left: 50px">
+                    <i class="fas fa-phone-volume" style="font-size: 70px; color: #192A4A; padding-left: 15px; padding-right: 45px"></i>
+                </div>
+                <div class="text-container">
+                    <h4>Vishing e smishing</h4>
+                    <p>
+                        Estas são variantes de phishing que envolvem comunicação por voz (vishing) e mensagens SMS (smishing).
+                        No vishing, os criminosos telefonam e solicitam informações, muitas vezes se passando por colegas de trabalho ou do suporte de TI.
+                        Já no smishing, tentam obter informações sensíveis por meio de mensagens de texto fraudulentas.
+                    </p>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: row">
+                <div class="icon-container" style="padding-left: 30px">
+                    <i class="fas fa-at" style="font-size: 70px; color: #192A4A; padding-left: 15px; padding-right: 45px"></i>
+                </div>
+                <div class="text-container">
+                    <h4>Spamming de contatos e hacking de e-mail</h4>
+                    <p>
+                        Este tipo de ataque visa invadir as contas de e-mail ou redes sociais de um indivíduo para acessar seus contatos.
+                        Os contatos podem ser informados de que o indivíduo foi vítima de roubo e solicitar que transfiram dinheiro para uma conta de transferência.
+                        Alternativamente, um "amigo" pode encaminhar um "vídeo imperdível" que na verdade direciona para um malware ou vírus destinado a extrair dados do dispositivo da vítima.
+                    </p>
+                </div>
+            </div>
         </section>
 
         <section id="como_evitar">
