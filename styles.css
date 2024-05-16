@@ -454,8 +454,8 @@ strong {
     }
 
     section {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .text-container {
@@ -506,5 +506,9 @@ strong {
 
     .ulLinks {
         padding-left: 0 !important;
+    }
+
+    .h2Padding {
+        padding-left: 0;
     }
 }
