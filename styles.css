@@ -86,7 +86,6 @@ h4 {
     color: #4c598c;
     font-size: 30px;
     padding-top: 10px;
-    padding-left: 30px;
     font-weight: 600;
 }
 
@@ -153,6 +152,10 @@ h4 {
     width: 88%;
 }
 
+.h2Padding {
+    padding-left: 12%;
+}
+
 .icon-container {
     height: auto;
     display: flex;
@@ -160,12 +163,18 @@ h4 {
     width: 12%;
 }
 
-iconColor {
+.iconP {
+    font-size: 50px;
     color: #192A4A;
 }
 
-.iconP {
-    font-size: 50px;
+.iconPAlign {
+    padding-left: 1.7vw;
+}
+
+.iconM {
+    font-size: 5vw;
+    color: #192A4A;
 }
 
 .iconG {
