@@ -159,6 +159,14 @@ h4 {
 .icon-container {
     height: auto;
     display: flex;
+    align-items: flex-start;
+    padding-top: 60px;
+    width: 11%;
+}
+
+.icon-container-h1 {
+    height: auto;
+    display: flex;
     align-items: center;
     width: 11%;
 }
