@@ -85,7 +85,7 @@ h4 {
     font-size: 30px;
     padding-top: 10px;
     font-weight: 600;
-    margin: 0 0 10px 0;
+    margin: 0 0 0 0;
 }
 
 .small {
@@ -172,12 +172,12 @@ h4 {
 }
 
 .iconM {
-    font-size: 6vw;
+    font-size: 5.5vw;
     color: #192A4A;
 }
 
 .iconG {
-    font-size: 7vw;
+    font-size: 6.5vw;
     color: #192A4A;
 }
 
