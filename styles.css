@@ -161,6 +161,7 @@ h4 {
     display: flex;
     align-items: center;
     width: 11%;
+    padding-bottom: 40px;
 }
 
 .icon-container-h1 {
@@ -176,7 +177,23 @@ h4 {
 }
 
 .iconPAlign {
-    padding-left: 0.8vw;
+    padding-left: 1vw;
+}
+
+.iconPAlignG {
+    padding-left: 1.5vw;
+}
+
+.iconContainerDownload {
+    text-align: center;
+    padding-bottom:40px;
+    padding-left: 35px;
+}
+
+.h4-download {
+    text-align: center;
+    padding-bottom:30px;
+    paddingTop: 20px;
 }
 
 .iconM {
@@ -196,7 +213,7 @@ h4 {
 
 .footerText {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .footerContainer {
