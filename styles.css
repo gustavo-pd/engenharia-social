@@ -6,11 +6,16 @@
 body {
     background-color: white;
     font-family: 'TT Lakes Neue Trial Compressed Light', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 main {
     background-color: #192A4A;
     padding: 30px 30px 30px 30px;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    width: 100;
 }
 
 header {
@@ -149,4 +154,12 @@ h4 {
     display: flex;
     align-items: center;
     width: 170px;
+}
+
+iconColor {
+    color: #192A4A;
+}
+
+.iconP {
+    font-size: 50px;
 }
