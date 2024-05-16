@@ -409,41 +409,41 @@ strong {
 
     .text-container {
         height: auto;
-        width: 89%;
+        width: 86%;
         padding-bottom: 30px;
     }
 
     .h2Padding {
-        padding-left: 11%;
+        padding-left: 14%;
     }
 
     .icon-container {
         height: auto;
         display: flex;
         align-items: center;
-        width: 11%;
-        padding-bottom: 40px;
+        width: 14%;
+        padding-bottom: 50px;
     }
 
     .icon-container-h1 {
         height: auto;
         display: flex;
         align-items: center;
-        width: 11%;
+        width: 14%;
     }
 
     .iconP {
-        font-size: 4.2vw;
+        font-size: 4.6vw;
         color: #192A4A;
     }
 
     .iconM {
-        font-size: 4.5vw;
+        font-size: 5vw;
         color: #192A4A;
     }
 
     .iconG {
-        font-size: 5.5vw;
+        font-size: 6vw;
         color: #192A4A;
     }
 
