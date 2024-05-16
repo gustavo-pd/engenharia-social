@@ -458,8 +458,21 @@ strong {
         padding-right: 40px;
     }
 
+    p {
+        font-size: 22px;
+    }
+
+    ul {
+        padding-inline-start: 16px !important;
+    }
+
     .text-container {
         text-align: center;
+        width: 100%;
+    }
+
+    .iconContainerDownload {
+        display: none;
     }
 
     .icon-container {
