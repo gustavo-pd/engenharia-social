@@ -524,4 +524,8 @@ strong {
     .h2Padding {
         padding-left: 0;
     }
+
+    header {
+        padding-top: 0;
+    }
 }
