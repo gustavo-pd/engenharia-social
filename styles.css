@@ -19,7 +19,7 @@ main {
 }
 
 header {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 section {
@@ -35,7 +35,6 @@ section {
 .secFlex {
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
 
 h1 {
