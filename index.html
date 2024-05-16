@@ -25,9 +25,9 @@
     </header>
 
     <main>
-        <section id="engenharia_social" style="display: flex; flex-direction: row">
+        <section id="engenharia_social" class="secFlex">
             <div class="icon-container">
-                <i class="fas fa-shield-alt" style="font-size: 110px; color: #192A4A; padding-left: 30px; padding-right: 30px"></i>
+                <i class="fas fa-shield-alt iconG"></i>
             </div>
             <div class="text-container">
                 <h2>O que é engenharia social?</h2>
@@ -247,14 +247,24 @@
             </div>
             <div style="display: flex;justify-content: center">
                 <div class="divButton">
-                    <button id="button_pdf" style="font-size: 20px">Download PDF</button>
+                    <button class="btn" type="button">
+                        <strong>DOWNLOAD PDF</strong>
+                        <div id="container-stars">
+                            <div id="stars"></div>
+                        </div>
+
+                        <div id="glow">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </button>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer style="padding-top: 80px">
-        <p style="text-align: center; font-size: 16px">&copy; 2024 - Todos os direitos reservados.</p>
+    <footer class="footerContainer">
+        <p class="footerText">&copy; 2024 - Todos os direitos reservados.</p>
     </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
