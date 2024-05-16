@@ -150,6 +150,7 @@ h4 {
 .text-container {
     height: auto;
     width: 89%;
+    padding-bottom: 30px;
 }
 
 .h2Padding {
