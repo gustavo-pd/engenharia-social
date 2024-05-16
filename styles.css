@@ -18,7 +18,7 @@ main {
 }
 
 header {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 section {
@@ -85,6 +85,7 @@ h4 {
     font-size: 30px;
     padding-top: 10px;
     font-weight: 600;
+    margin: 0 0 10px 0;
 }
 
 .small {
